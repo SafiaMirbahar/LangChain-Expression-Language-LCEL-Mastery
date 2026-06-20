@@ -1,0 +1,39 @@
+# LangChain Expression Language (LCEL) Mastery
+
+This repository focuses on mastering the fundamentals of **LangChain Expression Language (LCEL)** using modern integration standards with Google's Gemini models. It transitions from traditional, legacy chains to modern, modular, production-ready AI pipelines.
+
+---
+
+## 🎯 Core Learning Objectives
+* **Modular Pipelines:** Understanding the power of the `.pipe()` syntax to connect prompts, models, and parsing layers.
+* **Streamlined Output Formatting:** Isolating conversational AI filler data to retrieve raw, actionable strings and structured JSON data.
+* **Production-Ready Configuration:** Implementing secure environment variable patterns to prevent credentials from leaking into public repositories.
+
+---
+
+## 📁 Repository Structure
+
+* **`LCEL_chain.js`** – A fundamental LCEL pipeline demonstrating the core `PromptTemplate -> Model -> StringOutputParser` workflow.
+* **`LCEL_structured_Output.js`** – An advanced pipeline that binds strict schemas to the LLM, forcing the AI to respond in validated, predictable JSON structures.
+* **`.env.example`** – A template file outlining necessary configuration keys for safe local setup.
+
+---
+
+## 🛠️ Built With
+
+* **Runtime:** Node.js (v24+)
+* **Framework:** LangChain Core (`@langchain/core`)
+* **LLM Integration:** LangChain Google GenAI (`@langchain/google-genai`)
+* **Data Validation:** Zod
+* **Environment Management:** Dotenv
+
+---
+
+## 🚀 Local Installation & Setup
+
+Follow these steps to set up and run this project locally:
+
+### 1. Clone the Repository
+```bash
+git clone <your-repository-url>
+cd LANGCHAIN_DEV

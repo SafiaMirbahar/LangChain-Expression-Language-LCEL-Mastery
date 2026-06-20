@@ -35,5 +35,5 @@ Follow these steps to set up and run this project locally:
 
 ### 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone [https://github.com/SafiaMirbahar/LangChain-Expression-Language-LCEL-Mastery.git](https://github.com/SafiaMirbahar/LangChain-Expression-Language-LCEL-Mastery.git)
 cd LANGCHAIN_DEV
